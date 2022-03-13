@@ -50,7 +50,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el proyecto
 
 🚀 En este proyecto de react se configura webpack y tailwind desde cero para la integración del template tailwind-layout-travel, se integra el backend con Strapi y pagos en línea con Paypal.
 
@@ -101,7 +101,7 @@ _A continuacion los pasos de instalación._
 
 1. Clonar el siguiente repositorio
    ```sh
-   git clone https://github.com/stivens19
+   https://github.com/stivens19/minitravel-react.git
    ```
 2. Instalar las dependencias
    ```sh
