@@ -5,7 +5,7 @@ const UserRoute = () => {
   return (
     <div>
         <Routes>
-            <Route path="/mas" element={<ProfileUser />} />
+            <Route path="/" element={<ProfileUser />} />
         </Routes>
     </div>
   )

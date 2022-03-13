@@ -1,10 +1,13 @@
 import React from 'react'
 import AppRouter from './routes/AppRouter';
+import UiState from './states/UiState';
 
 const App = () => {
   return (
     <>
-      <AppRouter />
+      <UiState>
+        <AppRouter />
+      </UiState>
     </>
   )
 }

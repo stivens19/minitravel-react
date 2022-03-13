@@ -1,4 +1,5 @@
 import React from "react";
+import Input from './../ui/Input';
 
 const Contact = () => {
   return (
@@ -33,10 +34,10 @@ const Contact = () => {
           </div>
           <form className="w-full mt-4">
             <div>
-              <input type="text" className="Input mt-2" placeholder="Nombre:" />
+              <Input type="text" placeholder="Nombre:" />
             </div>
             <div>
-              <input type="email" className="Input mt-2" placeholder="Email:" />
+              <Input type="email" placeholder="Email:" />
             </div>
             <div>
               <textarea

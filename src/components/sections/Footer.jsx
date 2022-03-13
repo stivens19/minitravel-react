@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTiktok, FaYoutube, FaTwitter, FaFacebookF } from "react-icons/fa";
 import { HiOutlineShoppingCart, HiOutlineUserCircle,HiHome } from "react-icons/hi";
+import LinkActive from "../ui/LinkActive";
 const Footer = () => {
   return (
     <>
@@ -29,13 +30,22 @@ const Footer = () => {
       </footer>
       <div className="flex justify-center space-x-9 h-12 items-center bg-gray-100 fixed bottom-0 w-full sm:hidden dark:bg-tertiary">
         <div className="hover:bg-gray-100 p-1 cursor-pointer text-gray-300">
-          <HiHome size={"35px"} />
+          
+          <LinkActive to="/" classActive="text-primary">
+            <HiHome size={"35px"} />
+          </LinkActive>
         </div>
         <div className="hover:bg-gray-100 p-1 cursor-pointer text-gray-300">
-          <HiOutlineShoppingCart size={"35px"} />
+          
+          <LinkActive to="/cart" classActive="text-primary">
+            <HiOutlineShoppingCart size={"35px"} />
+          </LinkActive>
         </div>
         <div className="hover:bg-gray-100 p-1 cursor-pointer text-gray-300">
-          <HiOutlineUserCircle size={"35px"} />
+          <LinkActive to="/login" classActive="text-primary">
+            <HiOutlineUserCircle size={"35px"} />
+          </LinkActive>
+          
         </div>
       </div>
     </>
