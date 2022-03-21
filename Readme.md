@@ -15,6 +15,7 @@
     Mini tienda online con React y Strapi! 👓
     <br />
     <a href="https://www.youtube.com/channel/UCE4fUc_1EDWr4YTj2w_eaWA"><strong>Visite tutorial - ⏰ »</strong></a>
+    <a href="https://minitravel-react.netlify.app/"><strong>Visite la demo »</strong></a>
     <br />
     <br />
 
