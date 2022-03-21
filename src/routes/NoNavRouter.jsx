@@ -1,10 +1,11 @@
 import React, { useContext } from "react";
 import uiContext from "./../context/uiContext";
-import { Route,Routes } from 'react-router-dom';
+import {  Route,Routes } from 'react-router-dom';
 import Navbar from './../components/Navbar';
 import Register from './../containers/Register';
 import Footer from './../components/sections/Footer';
 import Cart from './../containers/Cart';
+import Category from "../containers/Category";
 
 const NoNavRouter = () => {
   const { darkMode } = useContext(uiContext);
@@ -15,6 +16,7 @@ const NoNavRouter = () => {
         <Routes>
           <Route path="/register" element={<Register />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/category" element={<Category />} />
         </Routes>
       </main>
       <Footer />
